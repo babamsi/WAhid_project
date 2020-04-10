@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Markazi Text', serif;
+    
+}
+header {
+    background-image: url('./images/mixkit-chocolate-donut-floating-above-a-plate-547-original.png');
+    background-size: contain;
+    height: 110vh;
+}
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+}
+li {
+    
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#head {
+    margin-top: 38%;
+    margin-left: 40%;
+    margin-bottom: 0;
+}
+button {
+    color: #1D9AF2;
+    background-color: rgb(116, 102, 26);
+    border: 1px solid rgb(116, 102, 26);
+    border-radius: 8px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:50px;
+    display: block;
+    font-size:30px;
+    transition: all 0.2s ease-in-out;
+ }
+button:hover {
+    transform: scale(1.1);
+}
+#flex {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#flex > div {
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+#grey {
+    background: #eee;
+}
+p {
+    font-size: 25px;
+
+}
+#lm {
+    margin-top: 20px;
+}
